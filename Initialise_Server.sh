@@ -5,7 +5,7 @@
 # CREATE USERS
 echo Creating users NOW!
 
-sh ./Create_Users.sh
+./Create_Users.sh
 
 echo Users created!
 echo

@@ -10,6 +10,5 @@
 # - bootcmd will run on every boot
 # - the INSTANCE_ID variable will be set to the current instance id.
 # - you can use 'cloud-init-boot-per' command to help only run once
-bootcmd:
- - echo 192.168.1.130 us.archive.ubuntu.com > /etc/hosts
- - [ cloud-init-per, once, mymkfs, mkfs, /dev/vdb ]
+runcmd:
+  - wget -O https://raw.githubusercontent.com/j-ak-e/Discord-Server-Init/master/Autorun.sh | sh [REPLACE_WITH_TOKEN]
