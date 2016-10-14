@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-mkdir ./ja-ke/Discord-things
+mkdir /root/ja-ke/
+mkdir /root/ja-ke/Discord-things
 cd ./ja-ke/Discord-things || exit
 
 # Get users file with token
