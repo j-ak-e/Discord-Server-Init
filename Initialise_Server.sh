@@ -18,7 +18,7 @@ echo
 ## INSTALL GENERIC DEPENDECIES
 ### Install generic dependencies (used by various packages)
 echo Installing generic dependencies!
-apt-get install build-essential libssl-dev libffi-dev git libopus-dev unzip svn screen -y
+apt-get install build-essential libssl-dev libffi-dev git libopus-dev unzip svn screen vsftpd -y
 echo Generic dependencies installed!
 echo
 
